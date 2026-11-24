@@ -1,0 +1,8 @@
+*.pdf
+*.zip
+*.tmp
+.DS_Store
+~$*
+# Éviter de committer les livrables personnels et les jeux réels
+livrables/
+secrets/
