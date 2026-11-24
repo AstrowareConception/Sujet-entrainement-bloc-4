@@ -26,3 +26,9 @@ Le dossier final doit être livré en **une archive ZIP**, pas dans un dépôt d
 Consultez `SUJET.md` et `donnees/README.md` avant de commencer.
 
 Ce matériel d'entraînement est **non officiel** et distinct des sujets du certificateur.
+## Concordance avec le PDF distribué
+
+- Le diagramme inclus dans le **PDF** est une **vue logique volontairement simplifiée** du monolithe. Le fichier `architecture/existant.drawio` détaille en complément le frontend Angular et la passerelle d'acquisition, sans changer les composants et flux métiers du sujet.
+- Le fichier `donnees/mesures_exemple.csv` ajoute le champ `receivedAt` à la liste simplifiée du PDF pour illustrer les **retards de transmission**. Il ne remplace ni ne contredit `capturedAt`, date réelle de la mesure.
+- Le CSV ne contient que **10 lignes fictives**, à ne pas confondre avec le volume dimensionnant de **8 millions de relevés par jour**. Il sert uniquement à raisonner sur les structures, les doublons et les délais, non à entraîner un modèle fiable.
+- **Aucune architecture cible, aucun résultat de modèle ni solution de migration n'est fourni.** Les livrables demandés restent cinq PDF autonomes et les sources `.drawio` regroupés dans une archive ZIP.
